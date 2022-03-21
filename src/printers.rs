@@ -13,6 +13,7 @@ impl MalValue {
           .collect::<Vec<String>>()
           .join(" ")
       ),
+      _ => String::default(),
     }
   }
 }

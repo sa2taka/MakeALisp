@@ -1,0 +1,156 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'step0_repl'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=step0_repl",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step0_repl",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'step0_repl'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=step0_repl",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step0_repl",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'step1_read_print'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=step1_read_print",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step1_read_print",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'step1_read_print'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=step1_read_print",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step1_read_print",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'step2_eval'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=step2_eval",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step2_eval",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'step2_eval'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=step2_eval",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step2_eval",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'step3_env'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=step3_env",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step3_env",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'step3_env'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=step3_env",
+          "--package=rust_mal"
+        ],
+        "filter": {
+          "name": "step3_env",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
